@@ -1,0 +1,39 @@
+.Deck {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .Deck-title {
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .Deck-btn {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Deck-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .Deck-btn:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+  }
+  
+  .Deck-cardarea {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  

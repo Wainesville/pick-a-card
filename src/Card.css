@@ -1,0 +1,10 @@
+.Card {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  transition: transform 0.2s ease;
+}
+
+.Card:hover {
+  transform: rotate(10deg);
+}
